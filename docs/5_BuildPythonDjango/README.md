@@ -16,8 +16,8 @@ This will start generating some long instructions on how to build a Python depen
 
 ![Copilot Asking for Django](./images/0_CopilotAskDjango.jpg)
 
-📝 **TIP** 
-> Just like any thing that gets output with Copilot Chat, the result can vary depending on who enters it and how the message is communicated. You need to make your own judgment to see what works and what does not work. 
+📝 **TIP**
+> Just like any thing that gets output with Copilot Chat, the result can vary depending on who enters it and how the message is communicated. You need to make your own judgment to see what works and what does not work.
 
 First step is to install dependencies. Again, you may have to change pip to pip3.
 
@@ -27,7 +27,7 @@ pip install django psycopg2-binary
 
 ![Install Dependency](./images/1_InstallDependency.jpg)
 
-📝 **TIP** 
+📝 **TIP**
 > If you prefer, you can also convert that into requirements.txt file and run as pip -r requirements.txt to install all dependencies: pip freeze > requirements.txt
 
 Next instruction says that you can create a new Django application with the following commands:
@@ -62,7 +62,7 @@ Let’s start modifying our files. We need to make the modifications to three fi
 - `myproject/urls.py`
 - `myproject/settings.py`
 
-📝 **TIP** 
+📝 **TIP**
 > Your result might be quite different from mine depending on how you communicate with Copilot. You may want to make some changes to see how Copilot can generate some code.
 
 Let’s start with the `myapp/views.py`. You may want to copy instead of inserting this time because we want to compare.
